@@ -2,15 +2,23 @@ import React from 'react'
 import _ from 'lodash'
 
 import {Switch, Route, Redirect, useLocation} from "react-router-dom"
-import Boards from '../views/example/boards/Boards'
+import Boards from "../views/example/boards/Boards"
 import Index from "../views/teams"
+import Landing from "../views/main/Landing"
+import Algorithm from "../views/algorithm/index"
 
 const ROUTES = [
   {
     path: '/',
     key: 'ROOT',
     exact: true,
-    component: ()=><h1>MAIN<div><a href="/board">게시판</a></div></h1>
+    component: Landing
+  },
+  {
+    path: "/al",
+    key: "ALGORITHM",
+    exact: true,
+    component: Algorithm,
   },
   {
     path: '/board',
