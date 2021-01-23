@@ -4,7 +4,7 @@ description: 처음부터 마음에 들때까지
 
 # 리액트 프로젝트 환경 구축하기
 
-## 현재 내 환
+## 현재 내 환경
 
 ```text
 This package will install:
