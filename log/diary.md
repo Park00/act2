@@ -4,6 +4,14 @@ description: 두 썸띵
 
 # Diary
 
+## 2021.01.24
+
+### Added
+
+* 감 떨어졌네. 원래 감이 있었는지도 모르겠다. 
+
+![](../.gitbook/assets/image.png)
+
 ## 2021.01.23
 
 ### Added
