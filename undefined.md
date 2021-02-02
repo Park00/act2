@@ -36,9 +36,24 @@ COPY . ./
 CMD ["npm", "start"]
 ```
 
-4. 실행방법\(다른 이미지가 없으므로 아래 Run  명령어만 작성해도 가능합니다.
+4. 실행방법
+
+1. 도커이미지를 생성합니다.
 
 ```text
-$docker run
+$docker build --tag 이미지이름:버전 . <-----도커파일경로
+$docker build --tag bbaaginae:1.0 . <----예
 ```
+
+2. 도커 실.
+
+```text
+$docker run --rm bbaaginae:1.0
+```
+
+도커 실행시 옵션에 대해서는 공식 문서 또는 검색을 통해서 확인하는게 좋습니다.. 지금 현재 작성한 --rm 옵션은 로컬에서 테스트 및 확인하기 좋도록 도커 종료시 컨테이너를 삭제하도록 한 옵션입니다.
+
+[참고](https://www.daleseo.com/docker-run/)
+
+[공식 레퍼런스](https://docs.docker.com/engine/reference/commandline/run/)
 
