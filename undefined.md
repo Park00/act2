@@ -45,7 +45,7 @@ $docker build --tag 이미지이름:버전 . <-----도커파일경로
 $docker build --tag bbaaginae:1.0 . <----예
 ```
 
-2. 도커 실.
+2. 도커 실행.
 
 ```text
 $docker run --rm bbaaginae:1.0
