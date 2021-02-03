@@ -4,6 +4,14 @@ description: 두 썸띵
 
 # Diary
 
+## 2021.02.03
+
+**Checked**
+
+* [https://reacttraining.com/blog/react-router-v6-pre/\#introducing-routes](https://reacttraining.com/blog/react-router-v6-pre/#introducing-routes)
+
+리액트 라우터 새 버전 릴리즈 지켜보
+
 ## 2021.01.24
 
 ### Added
