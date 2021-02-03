@@ -10,7 +10,7 @@ description: 두 썸띵
 
 * [https://reacttraining.com/blog/react-router-v6-pre/\#introducing-routes](https://reacttraining.com/blog/react-router-v6-pre/#introducing-routes)
 
-리액트 라우터 새 버전 릴리즈 지켜보
+리액트 라우터 새 버전 릴리즈 지켜보자 
 
 ## 2021.01.24
 
